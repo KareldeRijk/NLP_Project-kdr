@@ -1,8 +1,8 @@
-# NLP_Project
+# Product Scorer and Review Generator project
 <<<<<<< HEAD
 
-The goal of this project is to build a model, deployed through a website, that finds the top 3 products per product category. 
-
+The goal of this project is to build a model, deployed through a website, that finds the top 3 products per product category. The dataset used is the Amazon product reviews from kaggle found at https://www.kaggle.com/datasets/datafiniti/consumer-reviews-of-amazon-products/data
+ 
 The final file setup is as follows:
 - DataFrame Loading.ipynb loads the datasets and preprocesses via cleaning and embedding. The output is a dataframe containing the relevant information for the rest of the program. We separate loading and preprocessing to make the main program run faster. 
 - Main Program Final takes the DataFrame from the above notebook, and uses Sentiment Analysis + a scoring algorithm to find the top 3 products per meta-category. The output is a .csv file which contains the top 3 products for a given meta-category plus relevant metrics. We run this program over each meta-category, then concatenate these into one .csv file (Summaries_Combined) the DataFrame Loading and Concatenating notebook.
