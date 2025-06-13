@@ -1,4 +1,5 @@
 # NLP_Project
+<<<<<<< HEAD
 
 The goal of this project is to build a model, deployed through a website, that finds the top 3 products per product category. 
 
@@ -27,4 +28,3 @@ Fourth, we call chatgpt-3.5-turbo with some prompt engineering (provide example,
     We tried evaluating the generated summaries using ROUGE. However, due to a combination of time constraints and a lack of meaningful reference data, we were not able to generate meaningful evaluation scores. As reference text, we used the user reviews from the original dataset. However, the quality of most user reviews is not great so this provides a challenge in evaluating the model summaries.  
 
 Lastly, we deployed our results via a Gradio website hoster. To make the website run smoothly, we load a dataframe created as output from the scoring and summary model. 
-
